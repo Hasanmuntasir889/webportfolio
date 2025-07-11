@@ -119,4 +119,41 @@
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
+  .stats-section {
+    background-color: #f8f9ff;
+    padding: 60px 20px;
+    text-align: center;
+  }
   
+  .stats-container {
+    background-color: #e8e8ff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .stats-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+  }
+  
+  .stats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat h3 {
+    font-size: 32px;
+    color: #4F46E5;
+    margin-bottom: 8px;
+  }
+  
+  .stat p {
+    font-size: 14px;
+    color: #666;
+  }
